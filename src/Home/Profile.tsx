@@ -2,12 +2,13 @@ import styles from "./Profile.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import profileImg from "./src/assets/ProfilePicture.jpg";
 
 function Body() {
   return (
     <div className={styles.profile}>
       <div className={styles["profile-top"]}>
-        <img src="./src/assets/ProfilePicture.jpg" alt="Profile Pic"></img>
+        <img src={profileImg} alt="Profile Pic"></img>
       </div>
       <div className={styles["profile-bottom"]}>
         <h1 className={styles["profile-banner"]}>Ching Ming Yuan</h1>
