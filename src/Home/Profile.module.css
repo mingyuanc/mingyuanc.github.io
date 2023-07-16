@@ -9,8 +9,7 @@
   position: relative;
   z-index: 10;
   bottom: 60px;
-  background: transparent url("./src/assets/background.jpeg") no-repeat center
-    center;
+  background: transparent url("/assets/background.jpeg") no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
