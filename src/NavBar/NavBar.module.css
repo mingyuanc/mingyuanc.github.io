@@ -1,12 +1,15 @@
 .navbar {
+  z-index: 100;
   height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
   position: relative;
-  background-color: #023e8a;
+  /* background-color: #023e8a; */
+  background-color: transparent;
   color: white;
-  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+} */
 }
 
 .navbar-logo {
