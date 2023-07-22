@@ -39,7 +39,7 @@
   background-color: #524f81;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: clamp(1rem, 5vw, 2rem);
+  grid-gap: clamp(1rem, 5vw, 8rem);
 }
 
 .card {
