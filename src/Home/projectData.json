@@ -1,0 +1,26 @@
+[
+  {
+    "isImg": true,
+    "img": "/assets/ProfilePicture.jpg",
+    "title": "Chinese Chess",
+    "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://github.com/mingyuanc/XiangQi"
+  },
+  {
+    "isImg": true,
+    "img": "/assets/ProfilePicture.jpg",
+    "title": "Tenzies",
+    "desc": "Developed a simple Tenzies game. Embarked on this project to familiarise myself with front-end development",
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://github.com/mingyuanc/Tenzies"
+  },
+  {
+    "isImg": true,
+    "img": "/assets/telegramchatbot.jpeg",
+    "title": "Anonymous telegram chat bot",
+    "desc": "Developed a telegram bot that matches user randomly and anonymously in the safety of telegram. Learnt back-end development as well as certain aspects of dev-ops ",
+    "tech": ["Python", "Docker", "Heroku", "PostGres"],
+    "link": "https://t.me/PolyJcChatBot"
+  }
+]

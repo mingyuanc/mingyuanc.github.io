@@ -2,6 +2,7 @@ import { useRef } from "react";
 import NavBar from "./NavBar/NavBar";
 import Profile from "./Home/Profile";
 import About from "./Home/About";
+import Project from "./Home/Project";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         aboutRef={aboutRef}
         scrollToProjects={() => scrollTo(projectRef)}
       />
+      <Project projectRef={projectRef} />
     </>
   );
 }

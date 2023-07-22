@@ -25,13 +25,13 @@ function About({ aboutRef, scrollToProjects }: AboutProps) {
                 // Same substring at the start will only be typed out once, initially
                 "Software Developer.",
                 2000,
-                "Student",
+                "Student.",
                 2000,
                 "Basketball Player.",
                 2000,
-                "Creator",
+                "Creator.",
                 2000,
-                "Technology enthusiast.",
+                "Technology fanatic.",
                 2000,
               ]}
               wrapper="span"

@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blanchedalmond;
+  background-color: white;
 }
 
 .aboutMain {
@@ -21,7 +21,7 @@
   width: clamp(200px, 30vh, 400px);
   margin-top: clamp(-200px, -15vh, -100px);
   border-radius: 50%;
-  border: 10px solid blanchedalmond;
+  border: 10px solid white;
 }
 
 .aboutTitle {
@@ -31,10 +31,12 @@
 }
 
 .typewriter {
+  text-align: center;
   font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
 .aboutText p {
+  text-align: justify;
   margin: 1.5rem 0px;
   font-size: clamp(1.2rem, 3vw, 1.4rem);
   max-width: 60ch;
