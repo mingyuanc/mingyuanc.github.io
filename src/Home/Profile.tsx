@@ -1,9 +1,13 @@
 import styles from "./Profile.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-function Body() {
+interface ProfileProps {
+  scrollToAbout: () => void;
+}
+
+function Profile({ scrollToAbout }: ProfileProps) {
   return (
     <div className={styles.profile}>
       <div className={styles["profile-top"]}>
@@ -49,9 +53,15 @@ function Body() {
             </li>
           </ul>
         </div>
+        <FontAwesomeIcon
+          className={styles.bounce}
+          size="3x"
+          icon={faChevronDown}
+          onClick={scrollToAbout}
+        />
       </div>
     </div>
   );
 }
 
-export default Body;
+export default Profile;

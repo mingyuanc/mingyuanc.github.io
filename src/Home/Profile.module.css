@@ -62,6 +62,33 @@
   transform: scale(1.25);
 }
 
+.bounce {
+  z-index: 12;
+  animation: bounce 3s infinite;
+  position: absolute;
+  bottom: 30svh;
+}
+
+.bounce:hover {
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
   .profile-top {

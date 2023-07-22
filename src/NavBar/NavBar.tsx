@@ -1,7 +1,12 @@
 import { useState } from "react";
 import styles from "./NavBar.module.css";
 
-function NavBar() {
+interface NavBarProps {
+  scrollToAbout: () => void;
+  scrollToProjects: () => void;
+}
+
+function NavBar({ scrollToAbout, scrollToProjects }: NavBarProps) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className={styles.navbar}>
@@ -35,8 +40,8 @@ function NavBar() {
         }
       >
         <ul>
-          <li>About</li>
-          <li>Projects</li>
+          <li onClick={scrollToAbout}>About</li>
+          <li onClick={scrollToProjects}>Projects</li>
           <li>Experiences</li>
           <li>Skill</li>
         </ul>
