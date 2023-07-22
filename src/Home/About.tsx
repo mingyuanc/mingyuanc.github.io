@@ -1,7 +1,7 @@
 import { RefObject } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./About.module.css";
 import profileImg from "/assets/ProfilePicture.jpg";
 import resume from "/assets/ChingMingYuan.pdf";
@@ -74,8 +74,8 @@ function About({ aboutRef, scrollToProjects }: AboutProps) {
             View my resume&nbsp;
             <FontAwesomeIcon
               style={{ color: "000000" }}
-              className={styles.bounce}
-              icon={faArrowDown}
+              className={styles.bounceR}
+              icon={faArrowRight}
               size="2x"
             />
           </button>
