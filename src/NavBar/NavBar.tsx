@@ -1,12 +1,11 @@
 import { useState } from "react";
 import styles from "./NavBar.module.css";
-import logo from "../assets/favicon-32x32.png";
 
 function NavBar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <img className={styles["navbar-logo"]} src={logo} alt="Logo" />
+      {/* <img className={styles["navbar-logo"]} src={logo} alt="Logo" /> */}
       <h1 className={styles["navbar-brand"]}>Ming Yuan</h1>
       <button
         className={styles.hamburger}

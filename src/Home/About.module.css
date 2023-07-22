@@ -1,0 +1,34 @@
+.about {
+  height: 80vh;
+  width: 100%;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMain {
+  width: 100%;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.aboutImg {
+  z-index: 11;
+  width: clamp(200px, 30vh, 400px);
+  margin-top: clamp(-200px, -15vh, -100px);
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.aboutTitle {
+  margin: 1rem 0px;
+  font-size: clamp(2rem, 10vw, 4rem);
+  font-weight: bolder;
+}
+
+.typewriter {
+  font-size: clamp(1.5rem, 10vw, 2.5rem);
+}

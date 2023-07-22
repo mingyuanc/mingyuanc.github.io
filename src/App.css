@@ -31,3 +31,7 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
+body {
+  width: 100%;
+}
