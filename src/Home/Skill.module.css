@@ -1,0 +1,155 @@
+.skill {
+  position: relative;
+  height: fit-content;
+  min-height: 120vh;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2a303c;
+  background-color: rgb(95 109 136);
+}
+
+.skillHeader {
+  width: 100%;
+  height: fit-content;
+  min-height: 15vh;
+  background: url("/assets/skills.webp") no-repeat center center;
+  background-size: cover !important;
+  background-attachment: fixed;
+  -webkit-background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: clamp(2rem, 10vw, 4rem);
+  font-weight: bolder;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .skillHeader {
+    background-attachment: scroll;
+  }
+}
+
+.skillContainer {
+  padding: 2rem 0;
+  text-align: center;
+  height: fit-content;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.techContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.teches {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-100%);
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+  margin: clamp(0.4rem, 1vw, 1rem);
+}
+
+.techImg {
+  padding: 0;
+  width: clamp(4rem, 8vw, 5rem);
+  height: clamp(4rem, 8vw, 5rem);
+}
+
+.tech:hover .techDesc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.techDesc {
+  position: absolute;
+  top: -30px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.tech:hover .techImg {
+  transition: 0.5s ease;
+  transform: scale(1.25);
+}
+
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  filter: blur(0);
+}
+
+.tech:nth-child(1) {
+  transition-delay: 100ms;
+}
+
+.tech:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.tech:nth-child(3) {
+  transition-delay: 300ms;
+}
+
+.tech:nth-child(4) {
+  transition-delay: 400ms;
+}
+
+.tech:nth-child(5) {
+  transition-delay: 500ms;
+}
+
+.tech:nth-child(6) {
+  transition-delay: 600ms;
+}
+
+.tech:nth-child(7) {
+  transition-delay: 700ms;
+}
+
+.tech:nth-child(8) {
+  transition-delay: 800ms;
+}
+
+.tech:nth-child(9) {
+  transition-delay: 900ms;
+}
+
+.tech:nth-child(10) {
+  transition-delay: 1000ms;
+}
+
+.tech:nth-child(11) {
+  transition-delay: 1100ms;
+}
+
+.transition {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+}

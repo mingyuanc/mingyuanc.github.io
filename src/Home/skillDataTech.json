@@ -1,0 +1,12 @@
+[
+  { "name": "Elastic", "img": "/assets/tech/elastic.svg" },
+  { "name": "Docker", "img": "/assets/tech/docker.svg" },
+  { "name": "Flask", "img": "/assets/tech/flask.svg" },
+  { "name": "Heroku", "img": "/assets/tech/heroku.svg" },
+  { "name": "PostgreSQL", "img": "/assets/tech/postgresql.svg" },
+  { "name": "React", "img": "/assets/tech/react.svg" },
+  { "name": "Vite", "img": "/assets/tech/vite.svg" },
+  { "name": "Sass", "img": "/assets/tech/sass.svg" },
+  { "name": "Gin", "img": "/assets/tech/gin.svg" },
+  { "name": "Xcode", "img": "/assets/tech/xcode.svg" }
+]

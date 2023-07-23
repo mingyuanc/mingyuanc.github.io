@@ -33,7 +33,7 @@ function Experience({ expRef }: ExpProps) {
             key={new Date().getTime() * Math.random()}
             className="vertical-timeline-element--work"
             date={d.date}
-            contentStyle={{ fontSize: "clamp(1rem,3vw,1.3rem)" }}
+            contentStyle={{ fontSize: "clamp(1rem,3vw,1.2rem)" }}
             contentArrowStyle={{ borderRight: "none" }}
             {...(d.icon === "workIcon" ? workIcon : schoolIcon)}
           >
