@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/assets/freelance.jpg",
+    "icon": "workIcon",
+    "date": "Nov 2022 - Present",
+    "title": "Freelance IOS Developer",
+    "subtitle": "Singapore",
+    "desc": "Assisted various local university professors to develop an mobile application that aims to assist nurses across various hospitals in Singapore."
+  },
+  {
+    "img": "/assets/eusoff.png",
+    "icon": "schoolIcon",
+    "date": "Feb 2022 - Aug 2022",
+    "title": "Software Developer",
+    "subtitle": "Eusoff Hall Hackers",
+    "desc": "Revamped Eusoff Hall's legacy software to incorporate modern development technologies and best practices. Examples of these software includes: Jersey bidding and Senior room bidding."
+  },
+  {
+    "img": "/assets/cybersierra.jpeg",
+    "icon": "workIcon",
+    "date": "Feb 2022 - Aug 2022",
+    "title": "Software Engineer Intern",
+    "subtitle": "Cyber Sierra",
+    "desc": "Developed a cartography software that scans and maps companies footprints on cloud service providers such as AWS, Azure and Google Cloud Platform. Also, developed bots to train employees on aspects of cyber secuirty as well as combat the rampant spread of fake news "
+  }
+]

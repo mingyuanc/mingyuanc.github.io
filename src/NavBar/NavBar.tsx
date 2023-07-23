@@ -4,9 +4,14 @@ import styles from "./NavBar.module.css";
 interface NavBarProps {
   scrollToAbout: () => void;
   scrollToProjects: () => void;
+  scrollToExps: () => void;
 }
 
-function NavBar({ scrollToAbout, scrollToProjects }: NavBarProps) {
+function NavBar({
+  scrollToAbout,
+  scrollToProjects,
+  scrollToExps,
+}: NavBarProps) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <nav className={styles.navbar}>
@@ -42,7 +47,7 @@ function NavBar({ scrollToAbout, scrollToProjects }: NavBarProps) {
         <ul>
           <li onClick={scrollToAbout}>About</li>
           <li onClick={scrollToProjects}>Projects</li>
-          <li>Experiences</li>
+          <li onClick={scrollToExps}>Experiences</li>
           <li>Skill</li>
         </ul>
       </div>

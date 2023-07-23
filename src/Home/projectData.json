@@ -1,15 +1,15 @@
 [
   {
-    "isImg": true,
-    "img": "/assets/ChineseChess.jpg",
+    "isImg": false,
+    "img": "/assets/ChineseChess.mp4",
     "title": "Chinese Chess",
     "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
     "tech": ["React", "Vite", "TypeScript"],
     "link": "https://github.com/mingyuanc/XiangQi"
   },
   {
-    "isImg": true,
-    "img": "/assets/Tenzies.jpg",
+    "isImg": false,
+    "img": "/assets/Tenzies.mp4",
     "title": "Tenzies",
     "desc": "Developed a simple Tenzies game. Embarked on this project to familiarise myself with front-end development",
     "tech": ["React", "Vite", "TypeScript"],

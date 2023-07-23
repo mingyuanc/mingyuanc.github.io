@@ -13,7 +13,13 @@ interface CardProps {
 function Card({ isImg, img, title, desc, tech, link }: CardProps) {
   return (
     <div className={styles.card} onClick={() => (window.location.href = link)}>
-      {isImg ? <img src={img} alt={title} /> : <video src={img} />}
+      {isImg ? (
+        <img src={img} alt={title} />
+      ) : (
+        <video autoPlay loop muted>
+          <source src={img} type="video/mp4" />
+        </video>
+      )}
       <div className={styles.cardDesc}>
         <h2>{title}</h2>
         <p>{desc}</p>

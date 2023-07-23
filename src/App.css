@@ -35,3 +35,8 @@ a:visited {
 body {
   width: 100%;
 }
+
+.vertical-timeline-element-date {
+  font-size: 1.4rem !important;
+  opacity: 0.9 !important;
+}
