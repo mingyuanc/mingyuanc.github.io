@@ -5,12 +5,14 @@ interface NavBarProps {
   scrollToAbout: () => void;
   scrollToProjects: () => void;
   scrollToExps: () => void;
+  scrollToSkills: () => void;
 }
 
 function NavBar({
   scrollToAbout,
   scrollToProjects,
   scrollToExps,
+  scrollToSkills,
 }: NavBarProps) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
@@ -49,7 +51,7 @@ function NavBar({
           <li onClick={scrollToAbout}>About</li>
           <li onClick={scrollToProjects}>Projects</li>
           <li onClick={scrollToExps}>Experiences</li>
-          <li>Skill</li>
+          <li onClick={scrollToSkills}>Skill</li>
         </ul>
       </div>
     </nav>

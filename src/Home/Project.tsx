@@ -14,6 +14,7 @@ function Project({ projectRef }: ProjectProps) {
       <div className={styles.projectCards}>
         {data.map((x) => (
           <Card
+            key={new Date().getTime() * Math.random()}
             isImg={x.isImg}
             img={x.img}
             title={x.title}

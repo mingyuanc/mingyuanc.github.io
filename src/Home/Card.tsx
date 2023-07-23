@@ -25,7 +25,7 @@ function Card({ isImg, img, title, desc, tech, link }: CardProps) {
         <p>{desc}</p>
         <ul>
           {tech.map((x) => (
-            <li>{x}</li>
+            <li key={new Date().getTime() * Math.random()}>{x}</li>
           ))}
         </ul>
       </div>

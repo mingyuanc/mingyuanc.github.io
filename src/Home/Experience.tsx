@@ -30,6 +30,7 @@ function Experience({ expRef }: ExpProps) {
       <VerticalTimeline>
         {data.map((d) => (
           <VerticalTimelineElement
+            key={new Date().getTime() * Math.random()}
             className="vertical-timeline-element--work"
             date={d.date}
             contentStyle={{ fontSize: "clamp(1rem,3vw,1.3rem)" }}
