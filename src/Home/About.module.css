@@ -63,7 +63,7 @@
 .aboutButton:hover {
   cursor: pointer;
   transition: 0.5s;
-  background-color: bisque;
+  background-color: wheat;
 }
 
 .aboutButton:hover > .bounce {
