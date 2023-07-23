@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./About.module.css";
-import profileImg from "/assets/ProfilePicture.jpg";
+import profileImg from "/assets/ProfilePicture.webp";
 import resume from "/assets/ChingMingYuan.pdf";
 
 interface AboutProps {

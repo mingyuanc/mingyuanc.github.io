@@ -20,7 +20,7 @@
   z-index: 10;
   bottom: 60px;
   color: white;
-  background: transparent url("/assets/background.jpeg") no-repeat top center;
+  background: transparent url("/assets/background.webp") no-repeat top center;
   background-size: cover !important;
   background-attachment: fixed;
   -webkit-background-size: cover !important;

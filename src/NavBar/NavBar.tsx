@@ -18,6 +18,7 @@ function NavBar({
       {/* <img className={styles["navbar-logo"]} src={logo} alt="Logo" /> */}
       <h1 className={styles["navbar-brand"]}>Ming Yuan</h1>
       <button
+        about="Nav menu tray"
         className={styles.hamburger}
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);

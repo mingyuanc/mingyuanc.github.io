@@ -11,7 +11,7 @@
 .projectHeader {
   width: 100%;
   height: 15vh;
-  background: url("/assets/project.jpeg") no-repeat center right;
+  background: url("/assets/project.webp") no-repeat center right;
   background-size: cover !important;
   background-attachment: fixed;
   -webkit-background-size: cover !important;
