@@ -50,10 +50,10 @@ function About({ aboutRef, scrollToProjects }: AboutProps) {
             applications using React. Also, I have completed coursework and
             personal project to sate my curiousity as well as hone my technical
             abilties. When I'm not immersed in coding or academics, you'll find
-            me engaging in various sports activities like basketball, running
-            and squash, staying active and energised. If you share my passion
-            for technology or think that I am a good fit, I would love to
-            connect with you!
+            me engaging in various sports activities like basketball and running
+            , staying active and energised. If you share my passion for
+            technology or think that I am a good fit, I would love to connect
+            with you!
           </p>
         </div>
         <div className={styles.links} onClick={scrollToProjects}>
