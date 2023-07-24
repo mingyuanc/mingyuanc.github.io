@@ -9,7 +9,7 @@ interface ProjectProps {
 
 function Project({ projectRef }: ProjectProps) {
   return (
-    <div className={styles.project} ref={projectRef}>
+    <div className={styles.project} ref={projectRef} id="project">
       <div className={styles.projectHeader}>My Projects</div>
       <div className={styles.projectCards}>
         {data.map((x) => (

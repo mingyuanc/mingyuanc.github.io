@@ -25,7 +25,7 @@ const schoolIcon = {
 
 function Experience({ expRef }: ExpProps) {
   return (
-    <div className={styles.exp} ref={expRef}>
+    <div className={styles.exp} ref={expRef} id="experience">
       <div className={styles.expHeader}>My Experiences</div>
       <VerticalTimeline>
         {data.map((d) => (

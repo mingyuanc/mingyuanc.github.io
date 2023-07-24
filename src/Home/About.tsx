@@ -13,7 +13,7 @@ interface AboutProps {
 
 function About({ aboutRef, scrollToProjects }: AboutProps) {
   return (
-    <div className={styles.about} ref={aboutRef}>
+    <div className={styles.about} ref={aboutRef} id="about">
       <img className={styles.aboutImg} src={profileImg} alt="Profile Image" />
       <div className={styles.aboutMain}>
         <h1 className={styles.aboutTitle}>Hey there!</h1>

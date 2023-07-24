@@ -13,7 +13,7 @@ const openInNewTab = (url: string) => {
 };
 function Contact({ contactRef }: ContactProps) {
   return (
-    <div className={styles.contact} ref={contactRef}>
+    <div className={styles.contact} ref={contactRef} id="contact">
       <div className={styles.contactHeader}>
         <h1 style={{ color: "#f06000" }}>Contact</h1>
         <h2>Want to find out more?</h2>

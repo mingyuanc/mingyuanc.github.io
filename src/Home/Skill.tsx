@@ -62,7 +62,7 @@ function Skill({ skillRef }: SkillProps) {
   }, [isTechIntersecting]);
 
   return (
-    <div className={styles.skill} ref={skillRef}>
+    <div className={styles.skill} ref={skillRef} id="skill">
       <div className={styles.skillHeader}>My skills</div>
       <div className={styles.skillContainer}>
         <div className={styles.techContainer}>
