@@ -30,12 +30,16 @@ function Card({ isImg, img, title, desc, tech, link }: CardProps) {
       )}
       <div className={styles.cardDesc}>
         <h2>{title}</h2>
+
         <p>{desc}</p>
         <ul>
           {tech.map((x) => (
             <li key={new Date().getTime() * Math.random()}>{x}</li>
           ))}
         </ul>
+        {link.startsWith("https://mingyuanc.github.io/") && (
+          <div className={styles.demo}>Click to view demo!</div>
+        )}
       </div>
     </div>
   );
