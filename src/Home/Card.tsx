@@ -10,6 +10,10 @@ interface CardProps {
 }
 
 const openInNewTab = (url: string) => {
+  if (url.startsWith("https://mingyuanc.github.io/")) {
+    window.location.assign(url);
+    return;
+  }
   const newWindow = window.open(url, "_blank", "noopener,noreferrer");
   if (newWindow) newWindow.opener = null;
 };

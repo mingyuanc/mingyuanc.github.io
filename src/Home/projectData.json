@@ -5,7 +5,7 @@
     "title": "Chinese Chess",
     "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
     "tech": ["React", "Vite", "TypeScript"],
-    "link": "https://github.com/mingyuanc/XiangQi"
+    "link": "https://mingyuanc.github.io/XiangQi/"
   },
   {
     "isImg": false,
