@@ -7,7 +7,10 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 interface ContactProps {
   contactRef: RefObject<HTMLInputElement>;
 }
-
+const openInNewTab = (url: string) => {
+  const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+  if (newWindow) newWindow.opener = null;
+};
 function Contact({ contactRef }: ContactProps) {
   return (
     <div className={styles.contact} ref={contactRef}>
@@ -23,9 +26,7 @@ function Contact({ contactRef }: ContactProps) {
               icon={faGithub}
               style={{ color: "#ffffff" }}
               size="5x"
-              onClick={() =>
-                window.open("https://github.com/mingyuanc", "_blank")
-              }
+              onClick={() => openInNewTab("https://github.com/mingyuanc")}
             />
           </div>
           <h2>View my code</h2>
@@ -37,9 +38,8 @@ function Contact({ contactRef }: ContactProps) {
               style={{ color: "#ffffff" }}
               size="5x"
               onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/ming-yuan-ching-9290a322b/",
-                  "_blank"
+                openInNewTab(
+                  "https://www.linkedin.com/in/ming-yuan-ching-9290a322b/"
                 )
               }
             />
@@ -52,9 +52,7 @@ function Contact({ contactRef }: ContactProps) {
               icon={faEnvelope}
               style={{ color: "#ffffff" }}
               size="5x"
-              onClick={() =>
-                window.open("mailto:cmingyuan123@gmail.com", "_blank")
-              }
+              onClick={() => openInNewTab("mailto:cmingyuan123@gmail.com")}
             />
           </div>
           <h2>Email me</h2>

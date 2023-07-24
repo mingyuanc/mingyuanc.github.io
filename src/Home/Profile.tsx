@@ -19,37 +19,43 @@ function Profile({ scrollToAbout }: ProfileProps) {
           </p>
           <ul className={styles.social}>
             <li>
-              <FontAwesomeIcon
-                icon={faGithub}
-                style={{ color: "#ffffff" }}
-                size="3x"
-                onClick={() =>
-                  window.open("https://github.com/mingyuanc", "_blank")
-                }
-              />
+              <a
+                href="https://github.com/mingyuanc"
+                target="_blank"
+                rel="noopener,noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  style={{ color: "#ffffff" }}
+                  size="3x"
+                />
+              </a>
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                style={{ color: "#ffffff" }}
-                size="3x"
-                onClick={() =>
-                  window.open(
-                    "https://www.linkedin.com/in/ming-yuan-ching-9290a322b/",
-                    "_blank"
-                  )
-                }
-              />
+              <a
+                href="https://www.linkedin.com/in/ming-yuan-ching-9290a322b/"
+                target="_blank"
+                rel="noopener,noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  style={{ color: "#ffffff" }}
+                  size="3x"
+                />
+              </a>
             </li>
             <li>
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                style={{ color: "#ffffff" }}
-                size="3x"
-                onClick={() =>
-                  window.open("mailto:cmingyuan123@gmail.com", "_blank")
-                }
-              />
+              <a
+                href="mailto:cmingyuan123@gmail.com"
+                target="_blank"
+                rel="noopener,noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  style={{ color: "#ffffff" }}
+                  size="3x"
+                />
+              </a>
             </li>
           </ul>
         </div>

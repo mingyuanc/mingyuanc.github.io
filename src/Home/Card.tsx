@@ -8,11 +8,15 @@ interface CardProps {
   tech: Array<string>;
   link: string;
 }
-// TODO add a automatic image slideshow
+
+const openInNewTab = (url: string) => {
+  const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+  if (newWindow) newWindow.opener = null;
+};
 
 function Card({ isImg, img, title, desc, tech, link }: CardProps) {
   return (
-    <div className={styles.card} onClick={() => (window.location.href = link)}>
+    <div className={styles.card} onClick={() => openInNewTab(link)}>
       {isImg ? (
         <img src={img} alt={title} />
       ) : (
