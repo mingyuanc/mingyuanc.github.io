@@ -64,7 +64,6 @@ function About({ aboutRef, scrollToProjects }: AboutProps) {
               style={{ color: "000000" }}
               icon={faArrowDown}
               size="2x"
-              onClick={() => console.log("printed")}
             />
           </button>
           <button
