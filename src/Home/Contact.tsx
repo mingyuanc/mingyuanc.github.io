@@ -17,7 +17,7 @@ function Contact({ contactRef }: ContactProps) {
       <div className={styles.contactHeader}>
         <h1 style={{ color: "#f06000" }}>Contact</h1>
         <h2>Want to find out more?</h2>
-        <p>Lets connect!</p>
+        <p>Let's connect!</p>
       </div>
       <div className={styles.socials}>
         <div className={styles.social}>
