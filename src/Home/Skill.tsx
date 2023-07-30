@@ -42,11 +42,12 @@ function Skill({ skillRef }: SkillProps) {
       langRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
         el.classList.add(styles["slide-in"]);
       });
-    } else {
-      langRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
-        el.classList.remove(styles["slide-in"]);
-      });
     }
+    // else {
+    //   langRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
+    //     el.classList.remove(styles["slide-in"]);
+    //   });
+    // }
   }, [isLangIntersecting]);
 
   useEffect(() => {
@@ -54,11 +55,12 @@ function Skill({ skillRef }: SkillProps) {
       techRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
         el.classList.add(styles["slide-in"]);
       });
-    } else {
-      techRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
-        el.classList.remove(styles["slide-in"]);
-      });
     }
+    // else {
+    //   techRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
+    //     el.classList.remove(styles["slide-in"]);
+    //   });
+    // }
   }, [isTechIntersecting]);
 
   return (
