@@ -6,6 +6,8 @@ import Project from "./Home/Project";
 import Experience from "./Home/Experience";
 import Skill from "./Home/Skill";
 import Contact from "./Home/Contact";
+import workData from "./Home/expWorkData.json";
+import schoolData from "./Home/expSchoolData.json";
 import "./App.css";
 
 function App() {
@@ -32,7 +34,11 @@ function App() {
         scrollToProjects={() => scrollTo(projectRef)}
       />
       <Project projectRef={projectRef} />
-      <Experience expRef={expRef} />
+      <div ref={expRef} id="experiences">
+        <Experience type={"My Work Experiences"} data={workData} />
+        <Experience type={"Other Experiences"} data={schoolData} />
+      </div>
+
       <Skill skillRef={skillRef} />
       <Contact contactRef={contactRef} />
     </>

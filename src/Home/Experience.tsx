@@ -1,4 +1,3 @@
-import { RefObject } from "react";
 import styles from "./Experience.module.css";
 import {
   VerticalTimeline,
@@ -8,25 +7,25 @@ import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
 
-interface ExpProps {
-  expRef: RefObject<HTMLInputElement>;
+interface Exp {
+  img: string;
+  color: string;
+  icon: string;
+  date: string;
+  title: string;
+  subtitle: string;
+  desc: Array<string>;
 }
 
-import data from "./expData.json";
+interface ExpProps {
+  type: "My Work Experiences" | "Other Experiences";
+  data: Array<Exp>;
+}
 
-const workIcon = {
-  icon: <FontAwesomeIcon icon={faBriefcase} />,
-  iconStyle: { background: "rgb(00, 00,00)", color: "#fff" },
-};
-const schoolIcon = {
-  icon: <FontAwesomeIcon icon={faSchool} />,
-  iconStyle: { background: "rgb(00, 00,00)", color: "#fff" },
-};
-
-function Experience({ expRef }: ExpProps) {
+function Experience({ type, data }: ExpProps) {
   return (
-    <div className={styles.exp} ref={expRef} id="experience">
-      <div className={styles.expHeader}>My Experiences</div>
+    <div className={styles.exp}>
+      <div className={styles.expHeader}>{type}</div>
       <VerticalTimeline>
         {data.map((d) => (
           <VerticalTimelineElement
@@ -35,7 +34,15 @@ function Experience({ expRef }: ExpProps) {
             date={d.date}
             contentStyle={{ fontSize: "clamp(1rem,3vw,1.2rem)" }}
             contentArrowStyle={{ borderRight: "none" }}
-            {...(d.icon === "workIcon" ? workIcon : schoolIcon)}
+            {...(d.icon === "workIcon"
+              ? {
+                  icon: <FontAwesomeIcon icon={faBriefcase} />,
+                  iconStyle: { background: d.color, color: "#fff" },
+                }
+              : {
+                  icon: <FontAwesomeIcon icon={faSchool} />,
+                  iconStyle: { background: d.color, color: "#fff" },
+                })}
           >
             <div className={styles.header}>
               <img
@@ -50,8 +57,11 @@ function Experience({ expRef }: ExpProps) {
                 </h4>
               </div>
             </div>
-
-            <p>{d.desc}</p>
+            <ul className={styles.desc}>
+              {d.desc.map((x) => (
+                <li> {x}</li>
+              ))}
+            </ul>
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>

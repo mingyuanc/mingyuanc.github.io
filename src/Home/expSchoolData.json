@@ -1,0 +1,58 @@
+[
+  {
+    "img": "/assets/experiences/FOP.webp",
+    "color": "#FF5F1F",
+    "icon": "schoolIcon",
+    "date": "June 2023 - July 2023",
+    "title": "House Head",
+    "subtitle": "National University of Singapore",
+    "desc": [
+      "Lead and coordinated a group of 20 seniors to execute activities for over 85 freshmen.",
+      "Planned multiple house cohesion activities to create an welcoming and friendly house identity for the freshmen."
+    ]
+  },
+  {
+    "img": "/assets/experiences/rotaract.webp",
+    "color": "#FF5F1F",
+    "icon": "schoolIcon",
+    "date": "Aug 2022 - Aug 2023",
+    "title": "Programmes Executive",
+    "subtitle": "NUS Rotaract Club",
+    "desc": [
+      "Planned a detailed study plan spanning weeks and subjects tailored to the current needs of our partnered school.",
+      "Ensured that programmes taught were able to be continued by local teachers after we left.",
+      "Lead the execution of the programmes for both the students and the teachers."
+    ]
+  },
+  {
+    "img": "/assets/experiences/residentCommittee.webp",
+    "color": "#0096FF",
+    "icon": "schoolIcon",
+    "date": "Sep 2018 - Dec 2018",
+    "title": "Event Organiser",
+    "subtitle": "Rivervale Grove Residents committee",
+    "desc": [
+      "Planned a fully-fledged carnival alongside an exciting stage performance to forge a strong sense of belonging and celebrate Christmas.",
+      "Led my team of executives and volunteers to organise and execute the carnival for the families of the Seng Kang GRC.",
+      "Liaised with external vendors, businesses and government agencies for sponsorship and activites.",
+      "Event was graced by Mr. Charles Chong, then Deputy Speaker of Parliament.",
+      "Awarded the Distinction grade for my contribution, the highest possible grade."
+    ]
+  },
+  {
+    "img": "/assets/experiences/PAYM.webp",
+    "color": "#0096FF",
+    "icon": "schoolIcon",
+    "date": "July 2018 - Sep 2018",
+    "title": "Event Organiser",
+    "subtitle": "PAYM Loves Red",
+    "desc": [
+      "Planned a fully-fledged carnival alongside an exciting stage performance to forge a strong sense of belonging and commemorate Singapore's national day",
+      "Led my team of executives and volunteers to organise and execute the carnival for the families of the Seng Kang GRC.",
+      "Examined and identified opportunities to save cost through up-cycling.",
+      "Liaised with external vendors, businesses and government agencies for sponsorship and activites.",
+      "Event was graced by Mr. Charles Chong, then Deputy Speaker of Parliament.",
+      "Awarded the Distinction grade for my contribution, the highest possible grade."
+    ]
+  }
+]
