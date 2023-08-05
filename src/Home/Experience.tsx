@@ -25,7 +25,15 @@ interface ExpProps {
 function Experience({ type, data }: ExpProps) {
   return (
     <div className={styles.exp}>
-      <div className={styles.expHeader}>{type}</div>
+      <div
+        className={
+          type == "My Work Experiences"
+            ? [styles.expHeader, styles.workExp].join(" ")
+            : [styles.expHeader, styles.personalExp].join(" ")
+        }
+      >
+        {type}
+      </div>
       <VerticalTimeline>
         {data.map((d) => (
           <VerticalTimelineElement

@@ -19,6 +19,7 @@ function App() {
   const scrollTo = (ref: React.RefObject<HTMLInputElement>) => {
     ref.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+
   return (
     <>
       <NavBar

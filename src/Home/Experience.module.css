@@ -9,10 +9,17 @@
   background-color: lightgray;
 }
 
+.workExp {
+  background: url("/assets/workExp.webp") no-repeat center center;
+}
+
+.personalExp {
+  background: url("/assets/personalExp.webp") no-repeat center;
+}
+
 .expHeader {
   width: 100%;
   height: 15vh;
-  background: url("/assets/experiences.webp") no-repeat center center;
   background-size: cover !important;
   background-attachment: fixed;
   -webkit-background-size: cover !important;
