@@ -1,0 +1,56 @@
+[
+  {
+    "img": "/assets/experiences/gdsc.webp",
+    "color": "#000000",
+    "icon": "schoolIcon",
+    "date": "Sep 2023 - Present",
+    "title": "Full Stack Developer",
+    "subtitle": "Google Developer Student Clubs NUS (GDSC NUS)",
+    "desc": ["Building something exciting 😄", "Check back soon!"]
+  },
+  {
+    "img": "/assets/experiences/fintechNus.webp",
+    "color": "#000000",
+    "icon": "schoolIcon",
+    "date": "Aug 2023 - Present",
+    "title": "Software Developer",
+    "subtitle": "NUS Fintech Society",
+    "desc": ["Building something exciting 😄", "Check back soon!"]
+  },
+  {
+    "img": "/assets/experiences/freelance.webp",
+    "color": "#000000",
+    "icon": "workIcon",
+    "date": "Nov 2022 - Aug 2023",
+    "title": "Freelance IOS Developer",
+    "subtitle": "Singapore",
+    "desc": [
+      "Assisted various local university professors to develop a mobile application that aims to assist nurses across various hospitals in Singapore.",
+      "Developed an swift-based IOS application that connects to specific Bluetooth Low Energy (BLE) peripherals and communicate with an established online database."
+    ]
+  },
+  {
+    "img": "/assets/experiences/eusoff.webp",
+    "color": "#000000",
+    "icon": "schoolIcon",
+    "date": "Aug 2022 - Mar 2023",
+    "title": "Software Developer",
+    "subtitle": "Eusoff Hall Hackers",
+    "desc": [
+      "Revamped Eusoff Hall's legacy software to incorporate modern development technologies and best practices.",
+      "Examples of these software includes: Jersey bidding and Senior room bidding."
+    ]
+  },
+  {
+    "img": "/assets/experiences/cybersierra.webp",
+    "color": "#000000",
+    "icon": "workIcon",
+    "date": "Feb 2022 - Aug 2022",
+    "title": "Software Engineer Intern",
+    "subtitle": "Cyber Sierra",
+    "desc": [
+      "Prototyped a cartography software that scans and maps companies footprints on cloud service providers such as AWS, Azure and Google Cloud Platform.",
+      "Developed bots to train employees on aspects of cyber secuirty as well as combat the rampant spread of fake news."
+    ]
+  }
+]
