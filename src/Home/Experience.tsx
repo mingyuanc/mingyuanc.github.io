@@ -67,7 +67,7 @@ function Experience({ type, data }: ExpProps) {
             </div>
             <ul className={styles.desc}>
               {d.desc.map((x) => (
-                <li> {x}</li>
+                <li key={x}> {x} </li>
               ))}
             </ul>
           </VerticalTimelineElement>

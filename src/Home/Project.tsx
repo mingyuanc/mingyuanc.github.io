@@ -1,7 +1,7 @@
 import { RefObject } from "react";
 import styles from "./Project.module.css";
 import Card from "./Card.tsx";
-import data from "./projectData.json";
+import data from "./../Data/projectData.json";
 
 interface ProjectProps {
   projectRef: RefObject<HTMLInputElement>;

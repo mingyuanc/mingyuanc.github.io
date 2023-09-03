@@ -6,8 +6,8 @@ import Project from "./Home/Project";
 import Experience from "./Home/Experience";
 import Skill from "./Home/Skill";
 import Contact from "./Home/Contact";
-import workData from "./Home/expWorkData.json";
-import schoolData from "./Home/expSchoolData.json";
+import workData from "./Data/expWorkData.json";
+import schoolData from "./Data/expSchoolData.json";
 import "./App.css";
 
 function App() {

@@ -1,7 +1,7 @@
 import { RefObject, useState, useEffect, useRef } from "react";
 import styles from "./Skill.module.css";
-import lang from "./skillData.json";
-import tech from "./skillDataTech.json";
+import lang from "./../Data/skillData.json";
+import tech from "./../Data/skillDataTech.json";
 import waveImg from "/assets/wave.svg";
 
 interface SkillProps {
@@ -43,11 +43,6 @@ function Skill({ skillRef }: SkillProps) {
         el.classList.add(styles["slide-in"]);
       });
     }
-    // else {
-    //   langRef.current!.querySelectorAll(`div.${styles.tech}`).forEach((el) => {
-    //     el.classList.remove(styles["slide-in"]);
-    //   });
-    // }
   }, [isLangIntersecting]);
 
   useEffect(() => {
@@ -71,8 +66,10 @@ function Skill({ skillRef }: SkillProps) {
           <h1>Languages I am comfortable in</h1>
           <div className={styles.teches} ref={langRef}>
             {lang.map((i) => (
-              <div className={styles.tech}>
-                <p className={styles.techDesc}>{i.name}</p>
+              <div key={i.img} className={styles.tech}>
+                <p key={i.img} className={styles.techDesc}>
+                  {i.name}
+                </p>
                 <img
                   key={i.name}
                   className={styles.techImg}
@@ -88,8 +85,10 @@ function Skill({ skillRef }: SkillProps) {
           <h1>Technologies I have used</h1>
           <div className={styles.teches} ref={techRef}>
             {tech.map((i) => (
-              <div className={styles.tech}>
-                <p className={styles.techDesc}>{i.name}</p>
+              <div key={i.img} className={styles.tech}>
+                <p key={i.img} className={styles.techDesc}>
+                  {i.name}
+                </p>
                 <img
                   key={i.name}
                   className={styles.techImg}

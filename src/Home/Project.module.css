@@ -55,10 +55,12 @@
 
 .card img {
   max-width: 60%;
+  height: 100%;
 }
 
 .card video {
   max-width: 60%;
+  height: 100%;
 }
 
 .cardDesc {
