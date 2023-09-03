@@ -25,7 +25,7 @@
   },
   {
     "isImg": true,
-    "img": "/assets/TelegramChatBot.webp",
+    "img": "/assets/TelegramBot.webp",
     "title": "Anonymous telegram chat bot",
     "desc": "Developed a telegram bot that matches user randomly and anonymously in the safety of telegram. Learnt back-end development as well as certain aspects of dev-ops ",
     "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
