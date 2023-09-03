@@ -1,5 +1,13 @@
 [
   {
+    "isImg": true,
+    "img": "/assets/Webpage.webp",
+    "title": "Personal Webpage",
+    "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://mingyuanc.github.io"
+  },
+  {
     "isImg": false,
     "img": "/assets/ChineseChess.mp4",
     "title": "Chinese Chess",
@@ -17,7 +25,7 @@
   },
   {
     "isImg": true,
-    "img": "/assets/telegramchatbot.webp",
+    "img": "/assets/TelegramChatBot.webp",
     "title": "Anonymous telegram chat bot",
     "desc": "Developed a telegram bot that matches user randomly and anonymously in the safety of telegram. Learnt back-end development as well as certain aspects of dev-ops ",
     "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
