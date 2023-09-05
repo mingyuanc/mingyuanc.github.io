@@ -126,4 +126,8 @@ video {
     display: flex;
     flex-direction: column;
   }
+  .card img,
+  video {
+    max-width: 60%;
+  }
 }
