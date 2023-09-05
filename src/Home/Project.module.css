@@ -53,12 +53,8 @@
   transition: 1s ease;
 }
 
-.card img {
-  max-width: 60%;
-  height: 100%;
-}
-
-.card video {
+.card img,
+video {
   max-width: 60%;
   height: 100%;
 }
@@ -108,6 +104,11 @@
   .card {
     display: flex;
     flex-direction: column;
+  }
+
+  .card img,
+  video {
+    max-width: 60%;
   }
 }
 
