@@ -1,7 +1,7 @@
 [
   {
     "isImg": true,
-    "img": "/assets/Webpage.webp",
+    "img": "/assets/projects/Webpage.webp",
     "title": "Personal Webpage",
     "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
     "tech": ["React", "Vite", "TypeScript"],
@@ -9,7 +9,7 @@
   },
   {
     "isImg": false,
-    "img": "/assets/ChineseChess.mp4",
+    "img": "/assets/projects/ChineseChess.mp4",
     "title": "Chinese Chess",
     "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
     "tech": ["React", "Vite", "TypeScript"],
@@ -17,7 +17,7 @@
   },
   {
     "isImg": false,
-    "img": "/assets/Tenzies.mp4",
+    "img": "/assets/projects/Tenzies.mp4",
     "title": "Tenzies",
     "desc": "Developed a simple Tenzies game. Embarked on this project to familiarise myself with front-end development",
     "tech": ["React", "Vite", "TypeScript"],
@@ -25,7 +25,7 @@
   },
   {
     "isImg": true,
-    "img": "/assets/TelegramBot.webp",
+    "img": "/assets/projects/TelegramBot.webp",
     "title": "Anonymous telegram chat bot",
     "desc": "Developed a telegram bot that matches user randomly and anonymously in the safety of telegram. Learnt back-end development as well as certain aspects of dev-ops ",
     "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
