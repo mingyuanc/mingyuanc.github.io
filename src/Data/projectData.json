@@ -1,6 +1,30 @@
 [
   {
     "isImg": true,
+    "img": "/assets/projects/golang.webp",
+    "title": "Student management portal backend",
+    "desc": "Implemented backend for a simple student management portal for teachers.",
+    "tech": ["Go", "Gin", "Gorm", "PostGreSQL", "Docker"],
+    "link": "https://nodeflair-technical.vercel.app/"
+  },
+  {
+    "isImg": false,
+    "img": "/assets/projects/NodeFlair.mp4",
+    "title": "Clone of NodeFlair's jobs page",
+    "desc": "Designed a clone of NodeFlair to showcase my frontend skills.",
+    "tech": ["React", "Tailwind", "NextJS", "shadcn/ui"],
+    "link": "https://nodeflair-technical.vercel.app/"
+  },
+  {
+    "isImg": true,
+    "img": "/assets/projects/quack.webp",
+    "title": "Todo list manager",
+    "desc": "Designed a fully functional tasklist manager in java that has a fully functioning GUI and reminders features among many others.",
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "link": "https://github.com/mingyuanc/ip"
+  },
+  {
+    "isImg": true,
     "img": "/assets/projects/Webpage.webp",
     "title": "Personal Webpage",
     "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
