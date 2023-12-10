@@ -37,10 +37,10 @@ function Card({ isImg, img, title, desc, tech, link }: CardProps) {
             <li key={new Date().getTime() * Math.random()}>{x}</li>
           ))}
         </ul>
-        {link.startsWith("https://mingyuanc.github.io/") ||
-          (link.endsWith(".vercel.app/") && (
-            <div className={styles.demo}>Click to view demo!</div>
-          ))}
+        {(link.startsWith("https://mingyuanc.github.io/") ||
+          link.endsWith(".vercel.app/")) && (
+          <div className={styles.demo}>Click to view demo!</div>
+        )}
       </div>
     </div>
   );
