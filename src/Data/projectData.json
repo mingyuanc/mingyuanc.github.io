@@ -1,6 +1,6 @@
 [
   {
-    "img": "/assets/projects/quack.webp",
+    "img": "/assets/projects/duke.webp",
     "title": "Todo list manager",
     "desc": "Designed a fully functional tasklist manager in java that has a fully functioning GUI and reminders features among many others.",
     "tech": ["Java", "JavaFX", "GitHub"],
@@ -29,7 +29,7 @@
     "github": "https://github.com/mingyuanc/mingyuanc.github.io"
   },
   {
-    "img": "/assets/projects/xiangqi.webp",
+    "img": "/assets/projects/chineseChess.webp",
     "title": "Chinese Chess",
     "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
     "tech": ["React", "Vite", "TypeScript"],
