@@ -1,58 +1,55 @@
 [
   {
-    "isImg": true,
-    "img": "/assets/projects/Webpage.webp",
-    "title": "Personal Webpage",
-    "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
-    "tech": ["React", "Vite", "TypeScript"],
-    "link": "https://mingyuanc.github.io"
-  },
-  {
-    "isImg": false,
-    "img": "/assets/projects/ChineseChess.mp4",
-    "title": "Chinese Chess",
-    "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
-    "tech": ["React", "Vite", "TypeScript"],
-    "link": "https://mingyuanc.github.io/XiangQi/"
-  },
-  {
-    "isImg": true,
-    "img": "/assets/projects/TelegramBot.webp",
-    "title": "Anonymous telegram chat bot",
-    "desc": "Developed a telegram bot that matches user randomly and anonymously in the safety of telegram. Learnt back-end development as well as certain aspects of dev-ops ",
-    "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
-    "link": "https://t.me/PolyJcChatBot"
-  },
-  {
-    "isImg": true,
-    "img": "/assets/projects/golang.webp",
-    "title": "Student management portal backend",
-    "desc": "Implemented backend logic required for a student management portal.",
-    "tech": ["Go", "Gin", "GORM", "PostGreSQL", "Docker"],
-    "link": "https://github.com/mingyuanc/GovTech-Technical"
-  },
-  {
-    "isImg": false,
-    "img": "/assets/projects/NodeFlair.mp4",
-    "title": "NodeFlair's jobs page clone",
-    "desc": "Designed a clone of NodeFlair to showcase my frontend skills.",
-    "tech": ["React", "Tailwind", "NextJS", "shadcn/ui"],
-    "link": "https://nodeflair-technical.vercel.app/"
-  },
-  {
-    "isImg": true,
     "img": "/assets/projects/quack.webp",
     "title": "Todo list manager",
     "desc": "Designed a fully functional tasklist manager in java that has a fully functioning GUI and reminders features among many others.",
     "tech": ["Java", "JavaFX", "GitHub"],
-    "link": "https://github.com/mingyuanc/ip"
+    "github": "https://github.com/mingyuanc/ip"
   },
   {
-    "isImg": false,
-    "img": "/assets/projects/Tenzies.mp4",
-    "title": "Tenzies",
-    "desc": "Developed a simple Tenzies game. Embarked on this project to familiarise myself with front-end development",
+    "img": "/assets/projects/profbook.webp",
+    "title": "ProfBook",
+    "desc": "Designed a Linux inspired command line interface for CS professors to manage their student.",
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "github": "https://github.com/AY2324S1-CS2103T-W15-2/tp"
+  },
+  {
+    "img": "/assets/projects/polyjcchatbot.webp",
+    "title": "PolyJC Chatbot",
+    "desc": "Created a telegram bot that matches user randomly and anonymously in the safety of telegram.",
+    "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
+    "link": "https://t.me/PolyJcChatBot",
+    "github": "https://github.com/mingyuanc/Anonymous_telegram_chat_bot"
+  },
+  {
+    "img": "/assets/projects/webpage.webp",
+    "title": "Personal Webpage",
+    "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
     "tech": ["React", "Vite", "TypeScript"],
-    "link": "https://mingyuanc.github.io/Tenzies"
+    "github": "https://github.com/mingyuanc/mingyuanc.github.io"
+  },
+  {
+    "img": "/assets/projects/xiangqi.webp",
+    "title": "Chinese Chess",
+    "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://mingyuanc.github.io/XiangQi/",
+    "github": "https://github.com/mingyuanc/XiangQi"
+  },
+  {
+    "img": "/assets/projects/startr.webp",
+    "title": "Startr",
+    "desc": "Developed a events focused social networking platform.",
+    "tech": ["NextJS", "React", "Flask", "MongoDB", "Neural Networks"],
+    "link": "https://startr.me",
+    "github": "https://github.com/ryanlohyr/startr"
+  },
+  {
+    "img": "/assets/projects/lunaAI.webp",
+    "title": "LunaAI",
+    "desc": "Developed a Real-Time Voice Interactive Chatbot for Central Provision Fund (CPF) Singapore.",
+    "tech": ["TwiML", "GPT-4", "Pinecone", "React", "FastApi"],
+    "link": "https://devpost.com/software/lunaai?ref_content=my-projects-tab&ref_feature=my_projects",
+    "github": "https://github.com/ryanlohyr/LunaAI"
   }
 ]

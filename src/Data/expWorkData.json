@@ -1,21 +1,49 @@
 [
   {
+    "img": "/assets/experiences/hack&roll.webp",
+    "color": "#000000",
+    "icon": "schoolIcon",
+    "date": "Jan 2024",
+    "title": "Winner",
+    "subtitle": "TEAMMATES (NUS OSS)",
+    "desc": [
+      "Developed a Real-Time Voice Interactive Chatbot for Central Provision Fund (CPF) Singapore, integrating TwiML, GPT-4, Pinecone, and embeddings to provide instant and accurate responses",
+      "Emerging as winners among 200 competing teams."
+    ]
+  },
+  {
+    "img": "/assets/experiences/teammates.webp",
+    "color": "#000000",
+    "icon": "schoolIcon",
+    "date": "Jan 2024 - Present",
+    "title": "Software Engineer",
+    "subtitle": "TEAMMATES (NUS OSS)",
+    "desc": [
+      "On pace to implement a major contribution to TEAMMATES, an online feedback management system for education used by more than 1,000,000 users as part of CS3281!"
+    ]
+  },
+  {
     "img": "/assets/experiences/gdsc.webp",
     "color": "#000000",
     "icon": "schoolIcon",
     "date": "Sep 2023 - Present",
-    "title": "Full Stack Developer",
+    "title": "Software Engineer",
     "subtitle": "Google Developer Student Clubs NUS (GDSC NUS)",
-    "desc": ["Building something exciting 😄", "Check back soon!"]
+    "desc": [
+      "Spearheaded the development of three key pages of a volunteer management system for MINDS Singapore.",
+      "Single handedly created a data-table component with inbuilt faceted filtering and pagination and a global toast notification builder, both of which are used extensively in other routes."
+    ]
   },
   {
     "img": "/assets/experiences/fintechNus.webp",
     "color": "#000000",
     "icon": "schoolIcon",
     "date": "Aug 2023 - Present",
-    "title": "Software Developer",
+    "title": "Software Engineer",
     "subtitle": "NUS Fintech Society",
-    "desc": ["Building something exciting 😄", "Check back soon!"]
+    "desc": [
+      "Lead frontend development in NextJS to visualise the capabilities of club generated Machine Learning models."
+    ]
   },
   {
     "img": "/assets/experiences/freelance.webp",
@@ -25,8 +53,9 @@
     "title": "Freelance IOS Developer",
     "subtitle": "Singapore",
     "desc": [
-      "Assisted various local university professors to develop a mobile application that aims to assist nurses across various hospitals in Singapore.",
-      "Developed an swift-based IOS application that connects to specific Bluetooth Low Energy (BLE) peripherals and communicate with an established online database."
+      "Successfully migrated existing codebase from Objective-C to Swift and implemented automated testing of Swift code.",
+      "Spearheaded the Implementation of a Bluetooth Low-Energy (BLE) feature to integrate with existing codebase.",
+      "Worked around the limitation of IOS by embedding additional encrypted data in BLE devices broadcast blasts, resulting in a significantly quicker authentication process."
     ]
   },
   {
