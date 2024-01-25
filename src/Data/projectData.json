@@ -22,7 +22,7 @@
     "github": "https://github.com/mingyuanc/Anonymous_telegram_chat_bot"
   },
   {
-    "img": "/assets/projects/webpage.webp",
+    "img": "/assets/projects/personalwebpage.webp",
     "title": "Personal Webpage",
     "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
     "tech": ["React", "Vite", "TypeScript"],
