@@ -96,7 +96,7 @@ function Experience({ data }: ExpProps) {
                 <img src={d.img} alt="" />
               </button>
             }
-            iconStyle={{ background: d.color, color: "#fff" }}
+            iconStyle={{ background: d.color }}
           >
             <div className="hover:cursor-default">
               <div className="">

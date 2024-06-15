@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Ming Yuan",
   description: "Ming Yuan's personal portfolio website",
   icons: {
-    icon: "../public/favicon.ico",
+    icon: "../favicon/favicon.ico",
   },
 };
 
