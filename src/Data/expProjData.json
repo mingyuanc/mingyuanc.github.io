@@ -1,0 +1,207 @@
+[
+  {
+    "img": "/assets/projects/jouvire.jpeg",
+    "color": "#000000",
+    "date": "Jan 2024 –  Present",
+    "title": "Jouvire",
+    "subtitle": "CTO & Co-founder",
+    "team": "AI Wedding Planner",
+    "desc": [
+      "Led a team of 4 to develop a modern Typescript web application whilst working closely with wedding planners and couples.",
+      "Designed and developed a vendor marketplace and management feature with over 100 onboarded vendors.",
+      "Awarded the NUS Venture Initiation Programme (VIP) grant over 50 competing teams."
+    ],
+    "tech": [
+      "React",
+      "Nextjs",
+      "Tailwind",
+      "TypeScript",
+      "Redux",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "AWS",
+      "Cypress"
+    ],
+    "link": "https://jouvire.com",
+    "companyLink": "https://www.linkedin.com/company/jouvire/",
+    "mockup": null
+  },
+  {
+    "img": "/assets/projects/hack&roll.webp",
+    "color": "#000000",
+    "date": "Jan 2024",
+    "title": "Hack & Roll",
+    "subtitle": "Winners",
+    "team": "Team Luna",
+    "desc": [
+      "Developed a Real-Time Voice Interactive Chatbot for Central Provision Fund (CPF) Singapore, integrating TwiML, GPT-4, Pinecone, and embeddings to provide instant and accurate responses",
+      "Emerging as winners among 200 competing teams."
+    ],
+    "tech": ["Python", "Docker", "Flask"],
+    "link": "https://devpost.com/software/lunaai",
+    "companyLink": null,
+    "mockup": "/assets/projects/lunaAI.webp"
+  },
+  {
+    "img": "/assets/projects/teammates.webp",
+    "color": "#000000",
+    "date": "Jan 2024 –  Aug 2024",
+    "subtitle": "Software Engineer",
+    "title": "TEAMMATES (NUS OSS)",
+    "team": "Peer Evaluation Platform",
+    "desc": [
+      "Led the database migration from GCP to AWS to decrease cloud hosting cost by 17%.",
+      "Implemented a script to help automate the creation of E2E test fixtures, estimated to cut down testing time by over 60%.",
+      "Mentored over 13 open source contributors and enforced code quality via code reviews and pair programming."
+    ],
+    "tech": ["Java", "Docker", "PostgreSQL"],
+    "companyLink": "https://teammatesv4.appspot.com/",
+    "link": "https://teammates.github.io/teammates/",
+    "mockup": null
+  },
+  {
+    "img": "/assets/projects/startr.svg",
+    "color": "#000000",
+    "date": "Nov 2023 –  Jan 2024",
+    "subtitle": "Co-founder",
+    "title": "Startr",
+    "team": "Hackathon Networking Platform",
+    "desc": [
+      "Developed a full stack event networking application used by UNICON NUS among other events in a month.",
+      "Added matchmaking and chat features with 100+ users at its peak."
+    ],
+    "tech": [
+      "React",
+      "Nextjs",
+      "ExpressJs",
+      "Redux",
+      "Tailwind",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "AWS"
+    ],
+    "link": "https://startr.me",
+    "mockup": "/assets/projects/startr.webp",
+    "companyLink": null
+  },
+  {
+    "img": "/assets/projects/gdsc.png",
+    "color": "#000000",
+    "date": "Sep 2023 –  May 2024",
+    "subtitle": "Software Engineer",
+    "title": "Google Developer Student Clubs NUS (GDSC NUS)",
+    "team": "Team MINDS",
+    "desc": [
+      "Spearheaded the development of three key pages of a volunteer management system for MINDS Singapore.",
+      "Created a reusable data-table component with inbuilt faceted filtering and pagination and a global toast notification builder, both of which are used extensively in other features."
+    ],
+    "tech": [
+      "React",
+      "NextJS",
+      "Tailwind",
+      "Redux",
+      "NodeJs",
+      "ExpressJs",
+      "Prisma",
+      "Redux",
+      "MongoDB",
+      "AWS"
+    ],
+    "companyLink": "https://dsc.comp.nus.edu.sg/",
+    "link": null,
+    "mockup": null
+  },
+  {
+    "img": "/assets/projects/fintechNus.webp",
+    "color": "#000000",
+    "date": "Sep 2023 –  May 2024",
+    "subtitle": "Software Engineer",
+    "title": "NUS Fintech Society",
+    "team": "Team Medusa",
+    "desc": [
+      "Lead frontend development in NextJS to visualise the capabilities of club generated Machine Learning models."
+    ],
+    "tech": ["React", "Nextjs", "Tailwind", "TypeScript", "Redux"],
+    "companyLink": "https://fintechsociety.comp.nus.edu.sg/",
+    "link": null,
+    "mockup": null
+  },
+  {
+    "img": "/assets/projects/nus.png",
+    "title": "Profbook",
+    "color": "#000000",
+    "date": "Aug 2023 - Dec 2023",
+    "subtitle": "CS2103T Team Project",
+    "team": "Linux inspired command line interface for CS professors",
+    "desc": [
+      "Designed a Linux inspired command line interface for CS professors to manage their student."
+    ],
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "link": "https://github.com/AY2324S1-CS2103T-W15-2/tp",
+    "mockup": "/assets/projects/profbook.webp",
+    "companyLink": null
+  },
+  {
+    "img": "/assets/projects/nus.png",
+    "title": "Quack Quack",
+    "color": "#000000",
+    "date": "Aug 2023 - Dec 2023",
+    "subtitle": "CS2103T Individual Project",
+    "team": "Todo list manager",
+    "desc": [
+      "Designed a fully functional tasklist manager in java that has a fully functioning GUI and reminders features among many others."
+    ],
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "link": "https://github.com/mingyuanc/ip",
+    "mockup": "/assets/projects/duke.webp",
+    "companyLink": null
+  },
+  {
+    "img": "/assets/projects/eusoff.webp",
+    "color": "#000000",
+    "date": "Aug 2022 - Mar 2023",
+    "title": "Eusoff Hall",
+    "subtitle": "Software Developer",
+    "team": "Eusoff Hall Hackers",
+    "desc": [
+      "Revamped Eusoff Hall's legacy software to incorporate modern development technologies and best practices.",
+      "Examples of these software includes: Jersey bidding and Senior room bidding."
+    ],
+    "tech": ["React", "Nextjs", "Tailwind", "TypeScript"],
+    "link": null,
+    "mockup": null,
+    "companyLink": null
+  },
+  {
+    "img": "/assets/ProfilePicture.webp",
+    "color": "#000000",
+    "date": "Dec 2022",
+    "title": "Chinese Chess",
+    "subtitle": "Personal Project",
+    "team": "Xiang Qi Clone",
+    "desc": [
+      "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works"
+    ],
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://mingyuanc.github.io/XiangQi/",
+    "mockup": "/assets/projects/xiangqi.webp",
+    "companyLink": null
+  },
+  {
+    "img": "/assets/ProfilePicture.webp",
+    "color": "#000000",
+    "date": "Dec 2021",
+    "title": "Poly Jc Chat bot",
+    "subtitle": "Personal Project",
+    "team": "Antonymous chat bot",
+    "desc": [
+      "Created a telegram bot that matches user randomly and anonymously in the safety of telegram."
+    ],
+    "tech": ["Python", "Docker", "Heroku", "PostgreSQL"],
+    "link": "https://t.me/PolyJcChatBot",
+    "mockup": "/assets/projects/polyjc.webp",
+    "companyLink": null
+  }
+]

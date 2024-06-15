@@ -1,0 +1,68 @@
+[
+  {
+    "img": "/assets/work/gic.jpeg",
+    "color": "#000000",
+    "date": "May 2024 - Present",
+    "title": "GIC (Government of Singapore Investment Corporation) ",
+    "subtitle": "Software Engineering Intern",
+    "team": "Front Office TPS",
+    "desc": [
+      "Devised and implemented an On-The-Fly testing feature that allows users to mock the entire server state, estimated to decrease UAT and developer testing by 3,600+ hours annually.",
+      "Developed an event log feature that enabled front office users to track activities, enhancing transparency and efficiency.",
+      "Improved system efficiency by 10% by migrating from Spring Boot’s FeignClient to Webclient."
+    ],
+    "tech": ["Java", "SpringBoot", "MySql", "React", "Typescript"],
+    "companyLink": "https://www.gic.com.sg/",
+    "link": null,
+    "mockup": null
+  },
+  {
+    "img": "/assets/work/correctpill.png",
+    "color": "#000000",
+    "date": "Nov 2022 - Present",
+    "title": "Correct Pill",
+    "subtitle": "Mobile Software Engineer",
+    "team": "Patient Management Platform",
+    "desc": [
+      "Migrated existing codebase from Objective-C to Swift and implemented automated testing of Swift code.",
+      "Reduced BLE authentication process by over 400% by embedding additional information in broadcast blasts.",
+      "Optimised the process flow for Bluetooth connection and nurses’s patient management system."
+    ],
+    "tech": ["Swift", "Java", "XCode", "PostgreSQL"],
+    "link": null,
+    "mockup": null,
+    "companyLink": null
+  },
+  {
+    "img": "/assets/work/learnr.jpeg",
+    "color": "#000000",
+    "date": "Dec 2023 - Apr 2024",
+    "title": "Learnr",
+    "subtitle": "Software Engineer Intern",
+    "team": "Edu-Tech SaaS",
+    "desc": [
+      "Built a full stack Edu-Tech marketplace, from concept to implementation, using Elasticsearch and Flask.",
+      "Designed and implemented a service registry and gateway service to accommodate the growing micro service architecture. "
+    ],
+    "tech": ["Python", "Flask", "Elastic", "Typescript", "React"],
+    "companyLink": "https://www.linkedin.com/company/learnrsg/",
+    "link": null,
+    "mockup": null
+  },
+  {
+    "img": "/assets/work/cybersierra.webp",
+    "color": "#000000",
+    "date": "Feb 2022 - Aug 2022",
+    "title": "Cyber Sierra",
+    "subtitle": "Software Engineer Intern",
+    "team": "AI cybersecurity platform",
+    "desc": [
+      "Prototyped a cartography software that scans and maps companies footprints on cloud service providers such as AWS, Azure and Google Cloud Platform.",
+      "Developed bots to train employees on aspects of cyber secuirty as well as combat the rampant spread of fake news."
+    ],
+    "tech": ["Python", "Flask", "Elastic", "AWS", "Docker", "PostgreSQL"],
+    "companyLink": "https://cybersierra.co/",
+    "link": null,
+    "mockup": null
+  }
+]

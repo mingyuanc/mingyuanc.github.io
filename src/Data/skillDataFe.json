@@ -1,0 +1,10 @@
+[
+  { "name": "React", "img": "/assets/tech/react.svg" },
+  { "name": "Vite", "img": "/assets/tech/vite.svg" },
+  { "name": "Nextjs", "img": "/assets/tech/nextjs.svg" },
+  { "name": "Redux", "img": "/assets/tech/redux.svg" },
+  { "name": "Tailwind", "img": "/assets/tech/tailwindcss.svg" },
+  { "name": "Sass", "img": "/assets/tech/sass.svg" },
+  { "name": "Cypress", "img": "/assets/tech/cypress.svg" },
+  { "name": "Xcode", "img": "/assets/tech/xcode.svg" }
+]

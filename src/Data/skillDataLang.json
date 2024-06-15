@@ -1,0 +1,9 @@
+[
+  { "name": "TypeScript", "img": "/assets/languages/typescript.svg" },
+  { "name": "JavaScript", "img": "/assets/languages/javascript.svg" },
+  { "name": "Java", "img": "/assets/languages/java.svg" },
+  { "name": "Python", "img": "/assets/languages/python.svg" },
+  { "name": "Swift", "img": "/assets/languages/swift.svg" },
+  { "name": "Golang", "img": "/assets/languages/go.svg" },
+  { "name": "R", "img": "/assets/languages/R.svg" }
+]

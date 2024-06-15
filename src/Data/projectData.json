@@ -1,0 +1,55 @@
+[
+  {
+    "img": "/assets/projects/duke.webp",
+    "title": "Todo list manager",
+    "desc": "Designed a fully functional tasklist manager in java that has a fully functioning GUI and reminders features among many others.",
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "github": "https://github.com/mingyuanc/ip"
+  },
+  {
+    "img": "/assets/projects/profbook.webp",
+    "title": "ProfBook",
+    "desc": "Designed a Linux inspired command line interface for CS professors to manage their student.",
+    "tech": ["Java", "JavaFX", "GitHub"],
+    "github": "https://github.com/AY2324S1-CS2103T-W15-2/tp"
+  },
+  {
+    "img": "/assets/projects/polyjcchatbot.webp",
+    "title": "PolyJC Chatbot",
+    "desc": "Created a telegram bot that matches user randomly and anonymously in the safety of telegram.",
+    "tech": ["Python", "Docker", "Heroku", "PostGreSQL"],
+    "link": "https://t.me/PolyJcChatBot",
+    "github": "https://github.com/mingyuanc/Anonymous_telegram_chat_bot"
+  },
+  {
+    "img": "/assets/projects/personalwebpage.webp",
+    "title": "Personal Webpage",
+    "desc": "Developed a personal webpage to store and showcase my experiences and projects that I am proud of!",
+    "tech": ["React", "Vite", "TypeScript"],
+    "github": "https://github.com/mingyuanc/mingyuanc.github.io"
+  },
+  {
+    "img": "/assets/projects/chineseChess.webp",
+    "title": "Chinese Chess",
+    "desc": "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works",
+    "tech": ["React", "Vite", "TypeScript"],
+    "link": "https://mingyuanc.github.io/XiangQi/",
+    "github": "https://github.com/mingyuanc/XiangQi"
+  },
+  {
+    "img": "/assets/projects/startr.webp",
+    "title": "Startr",
+    "desc": "Developed a events focused social networking platform.",
+    "tech": ["NextJS", "React", "Flask", "MongoDB", "Neural Networks"],
+    "link": "https://startr.me",
+    "github": "https://github.com/ryanlohyr/startr"
+  },
+  {
+    "img": "/assets/projects/lunaAI.webp",
+    "title": "LunaAI",
+    "desc": "Developed a Real-Time Voice Interactive Chatbot for Central Provision Fund (CPF) Singapore.",
+    "tech": ["TwiML", "GPT-4", "Pinecone", "React", "FastApi"],
+    "link": "https://devpost.com/software/lunaai?ref_content=my-projects-tab&ref_feature=my_projects",
+    "github": "https://github.com/ryanlohyr/LunaAI"
+  }
+]

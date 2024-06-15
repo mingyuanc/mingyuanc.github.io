@@ -1,0 +1,95 @@
+.profile,
+.profile-top,
+.profile-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  height: 110svh;
+  margin-bottom: -60px;
+  min-height: 800px;
+}
+
+.profile-top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  bottom: 60px;
+  color: white;
+  background-color: #00020a;
+}
+
+.profile-bottom {
+  position: absolute;
+  top: 40svh;
+}
+
+.profile-banner {
+  text-align: center;
+  font-size: clamp(2rem, 10vw, 4rem);
+  font-weight: bolder;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.profile-desc {
+  text-align: center;
+  font-weight: lighter;
+  font-size: clamp(0.8rem, 4vw, 1.5rem);
+  color: white;
+  margin: 30px;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.social {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.social li {
+  transition: 0.5s ease;
+  padding: 20px;
+}
+
+.social li:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.bounce {
+  z-index: 12;
+  animation: bounce 3s infinite;
+  position: absolute;
+  bottom: 10svh;
+}
+
+.bounce:hover {
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 768px) {
+  .profile-top {
+    background-attachment: scroll;
+  }
+}

@@ -1,0 +1,14 @@
+[
+  { "name": "SpringBoot", "img": "/assets/tech/spring-boot.svg" },
+  { "name": "Flask", "img": "/assets/tech/flask.png" },
+  { "name": "Gin", "img": "/assets/tech/gin.svg" },
+  { "name": "NodeJs", "img": "/assets/tech/nodejs.svg" },
+  { "name": "ExpressJs", "img": "/assets/tech/express.svg" },
+  { "name": "Elastic", "img": "/assets/tech/elastic.svg" },
+  { "name": "PostgreSQL", "img": "/assets/tech/postgresql.svg" },
+  { "name": "MySql", "img": "/assets/tech/mysql.svg" },
+  { "name": "MongoDb", "img": "/assets/tech/mongodb.svg" },
+  { "name": "AWS", "img": "/assets/tech/aws.svg" },
+  { "name": "Heroku", "img": "/assets/tech/heroku.svg" },
+  { "name": "Docker", "img": "/assets/tech/docker.svg" }
+]
