@@ -55,10 +55,38 @@ function NavBar({
         }
       >
         <ul>
-          <li onClick={scrollToAbout}>About</li>
-          <li onClick={scrollToExps}>Experiences</li>
-          <li onClick={scrollToSkills}>Skill</li>
-          <li onClick={scrollToContact}>Contact</li>
+          <li
+            onClick={() => {
+              scrollToAbout();
+              setIsNavExpanded(false);
+            }}
+          >
+            About
+          </li>
+          <li
+            onClick={() => {
+              scrollToExps();
+              setIsNavExpanded(false);
+            }}
+          >
+            Experiences
+          </li>
+          <li
+            onClick={() => {
+              scrollToSkills();
+              setIsNavExpanded(false);
+            }}
+          >
+            Skill
+          </li>
+          <li
+            onClick={() => {
+              scrollToContact();
+              setIsNavExpanded(false);
+            }}
+          >
+            Contact
+          </li>
         </ul>
       </div>
     </nav>

@@ -40,7 +40,7 @@ export default function Home() {
         <Tabs
           ref={expRef}
           defaultValue="work"
-          className="flex flex-col items-center justify-center"
+          className="flex flex-col items-center justify-center scroll-mt-28"
         >
           <TabsList className="w-full">
             <TabsTrigger className="grow" value="work">

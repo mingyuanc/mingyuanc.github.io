@@ -15,7 +15,7 @@ const openInNewTab = (url: string) => {
 };
 function Contact({ contactRef }: ContactProps) {
   return (
-    <div className="mt-20" ref={contactRef} id="contact">
+    <div className="mt-20 scroll-mt-28" ref={contactRef} id="contact">
       <h1 className="text-2xl font-bold mb-4">Contact</h1>
       <div className="flex flex-col justify-center items-center text-lg">
         <h2>Want to find out more?</h2>

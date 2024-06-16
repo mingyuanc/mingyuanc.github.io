@@ -9,7 +9,7 @@ interface AboutProps {
 
 function About({ aboutRef, skillsRef }: AboutProps) {
   return (
-    <div className="bg-[#00020a]" id="about" ref={aboutRef}>
+    <div className="bg-[#00020a] scroll-mt-28" id="about" ref={aboutRef}>
       <h1 className="text-2xl font-bold mb-10">About</h1>
       <p className="text-justify text-lg text-slate-300 leading-relaxed">
         I am a passionate Computer Science student studying at the National

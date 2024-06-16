@@ -38,7 +38,6 @@ interface ExpProps {
 const masterlist = [...be, ...fe, ...lang];
 
 function TechSkills({ values }: { values: string[] }) {
-  console.log(values);
   const techSkills = masterlist.filter((i) => values.includes(i.name));
   return (
     <div className="mt-10 mb-4">

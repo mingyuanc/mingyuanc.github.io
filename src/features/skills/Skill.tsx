@@ -18,7 +18,7 @@ interface SkillsProps {
 
 function Skill({ skillsRef }: SkillsProps) {
   return (
-    <div className="mt-10 mb-20" id="skill" ref={skillsRef}>
+    <div className="mt-10 mb-20 scroll-mt-28" id="skill" ref={skillsRef}>
       <h1 className="text-2xl font-bold mb-10">Skills</h1>
       <div className="">
         <div className="">
