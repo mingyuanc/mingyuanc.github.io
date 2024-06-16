@@ -22,7 +22,7 @@ function Contact({ contactRef }: ContactProps) {
         <p>Let&apos;s connect!</p>
       </div>
 
-      <div className={styles.socials}>
+      <div className="flex justify-center">
         <div className={styles.social}>
           <div className={styles.socialWrapper}>
             <FontAwesomeIcon

@@ -186,7 +186,7 @@
     ],
     "tech": ["React", "Vite", "TypeScript"],
     "link": "https://mingyuanc.github.io/XiangQi/",
-    "mockup": "/assets/projects/xiangqi.webp",
+    "mockup": "/assets/projects/chineseChess.webp",
     "companyLink": null
   },
   {
@@ -201,7 +201,7 @@
     ],
     "tech": ["Python", "Docker", "Heroku", "PostgreSQL"],
     "link": "https://t.me/PolyJcChatBot",
-    "mockup": "/assets/projects/polyjc.webp",
+    "mockup": "/assets/projects/polyjcchatbot.webp",
     "companyLink": null
   }
 ]
