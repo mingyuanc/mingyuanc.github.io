@@ -21,9 +21,7 @@ function Profile({ scrollToAbout }: ProfileProps) {
       <div className={styles["profile-top"]}>
         <div className={styles["profile-bottom"]}>
           <h1 className={styles["profile-banner"]}>Ching Ming Yuan</h1>
-          <p className={styles["profile-desc"]}>
-            Software Engineering Intern @ GIC
-          </p>
+          <p className={styles["profile-desc"]}>Incoming Quant Dev @ Citadel</p>
           <ul className={styles.social}>
             <TooltipProvider delayDuration={50}>
               <Tooltip>

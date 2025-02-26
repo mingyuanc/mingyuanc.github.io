@@ -64,7 +64,7 @@ export default function Home() {
           </TabsContent>
         </Tabs>
         <Contact contactRef={contactRef} />
-        <div>Created by Ming yuan</div>
+        <div>Created by Ming yuan, Last updated Feb 2025</div>
       </div>
     </div>
   );

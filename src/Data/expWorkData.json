@@ -1,8 +1,21 @@
 [
   {
+    "img": "/assets/work/citadel.jpg",
+    "color": "#FFFFFF",
+    "date": "May 2025 - Aug 2025",
+    "title": "Citadel ",
+    "subtitle": "Quantitative Developer Intern",
+    "team": "Commodities Oil Trading",
+    "desc": ["Stay tuned!"],
+    "tech": [],
+    "companyLink": "https://www.citadel.com/",
+    "link": null,
+    "mockup": null
+  },
+  {
     "img": "/assets/work/gic.jpeg",
     "color": "#FFFFFF",
-    "date": "May 2024 - Present",
+    "date": "May 2024 - Dec 2024",
     "title": "GIC (Government of Singapore Investment Corporation) ",
     "subtitle": "Software Engineering Intern",
     "team": "Front Office TPS",
@@ -19,7 +32,7 @@
   {
     "img": "/assets/work/correctpill.png",
     "color": "#000000",
-    "date": "Nov 2022 - Present",
+    "date": "Nov 2022 - Aug 2024",
     "title": "Correct Pill",
     "subtitle": "Mobile Software Engineer",
     "team": "Patient Management Platform",

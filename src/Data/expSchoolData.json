@@ -1,5 +1,18 @@
 [
   {
+    "img": "/assets/school/bu.png",
+    "color": "#FF5F1F",
+    "date": "Jan 2025 - May 2025",
+    "title": "Exchange Student",
+    "team": "Boston, USA",
+    "subtitle": "Boston University",
+    "desc": ["Joined the Boston University community for a semester exchange."],
+    "tech": null,
+    "link": null,
+    "mockup": null,
+    "companyLink": null
+  },
+  {
     "img": "/assets/school/fop.webp",
     "color": "#FF5F1F",
     "date": "June 2023 - July 2023",

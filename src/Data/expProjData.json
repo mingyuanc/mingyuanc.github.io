@@ -1,5 +1,31 @@
 [
   {
+    "img": "/assets/projects/gdsc.png",
+    "color": "#000000",
+    "date": "May 2024 –  May 2025",
+    "subtitle": "Head of Technology",
+    "title": "Google Developer Student Clubs NUS (GDSC NUS)",
+    "team": "Team Ignite",
+    "desc": [
+      "Lead a team of 9 to develop an multi-tenant application with in-built management system that is extensible and generic enough to be used by any of our partners and serves as a platform for other GDSC teams."
+    ],
+    "tech": [
+      "React",
+      "NextJS",
+      "Tailwind",
+      "Redux",
+      "NodeJs",
+      "ExpressJs",
+      "Prisma",
+      "Redux",
+      "MongoDB",
+      "AWS"
+    ],
+    "companyLink": "https://dsc.comp.nus.edu.sg/",
+    "link": null,
+    "mockup": null
+  },
+  {
     "img": "/assets/projects/jouvire.jpeg",
     "color": "#000000",
     "date": "Jan 2024 –  Present",
@@ -172,21 +198,6 @@
     "tech": ["React", "Nextjs", "Tailwind", "TypeScript"],
     "link": null,
     "mockup": null,
-    "companyLink": null
-  },
-  {
-    "img": "/assets/ProfilePicture.webp",
-    "color": "#000000",
-    "date": "Dec 2022",
-    "title": "Chinese Chess",
-    "subtitle": "Personal Project",
-    "team": "Xiang Qi Clone",
-    "desc": [
-      "Developed an interactive Chinese Chess (also known as Xiangqi) web application. Currently, users are only able to play offline and support for online play is in the works"
-    ],
-    "tech": ["React", "Vite", "TypeScript"],
-    "link": "https://mingyuanc.github.io/XiangQi/",
-    "mockup": "/assets/projects/chineseChess.webp",
     "companyLink": null
   },
   {
